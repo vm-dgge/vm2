@@ -3,7 +3,7 @@ name: Python
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 */01 * * *"
+    - cron: "40 */01 * * *"
   push:
     branches: ["main"]
 
